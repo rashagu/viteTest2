@@ -1,6 +1,11 @@
-.main:deep(.abc){
+/*.main:deep(.abc){*/
+/*    color: red;*/
+/*}*/
+
+.main :global(.abc){
     color: red;
 }
+
 
 .main :deep(.abc_module){
     /*color: green;*/
